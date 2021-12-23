@@ -7,8 +7,16 @@
  * @notions Functions, Operators
  */
 
-// Your code :
 
+
+
+
+
+// Your code :
+const obj = {
+  key:'value',
+  }
+return obj;
 //* Begin of tests
 const assert = require('assert')
 

@@ -5,6 +5,14 @@
  * and return a string of all the element separated by a space
  *
  */
+function sentence(tab) {
+    for (let i = 0; i < tab.length; i++) {
+        var element = tab.join(' ');
+        
+    }
+    return element;
+}
+
 
 
 //* Begin of tests

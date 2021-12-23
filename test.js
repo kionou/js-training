@@ -1,20 +1,8 @@
-function supp(chaine) {
-
-   
-    //var eff = chaine.substring(0,2);
-    var der = chaine.substr(chaine.length-2);
-
-    //console.log(eff);
-    console.log(der);
-     //console.log(cc);
+function somme(params) {
+    let total = 0;
+    for(let i = 0; i < params.length ; i++){
+        total += params[i]
+    }
+    return total;
 }
-
-
-
-
-
-
-
-
-
-supp("bonjour toi ici oui toi errt gggg");
+console.log(somme([2,7,5]));

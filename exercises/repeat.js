@@ -7,6 +7,16 @@
  * Of course you may not use the method directly
  *
  */
+function repeat(chaine,n){
+
+    var tb =[];
+    while (tb.length < n) {
+        tb.push(chaine);
+    }
+    return tb.join('');
+    }
+
+
 
 //* Begin of tests
 const assert = require('assert')
